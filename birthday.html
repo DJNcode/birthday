@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <title>Happy Birthday</title>
+  <style>
+      * {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  body {
+    background: #008888;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: 120vh;
+    width: 80vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    align-items: center;
+    padding: 1em;
+    overflow: hidden; 
+  }
+  
+  .background{
+      background: url(74373413_551553992247139_8506792391745732608_n.jpg); background-size: 24rem 25rem; margin: 0px; height: 25rem; max-width: 24rem; animation: slide 20s infinite;
+  }
+  
+ @keyframes slide{
+    10%{
+        background: url(270135255_1089915035077696_487993777478097192_n.jpg);background-size: 24rem 25rem;
+    }
+    25%{
+        background: url(237453753_1001995790536288_3901361958541510176_n.jpg);background-size: 24rem 25rem;
+    }
+    50%{
+        background: url(156222993_902777903791411_3847540753250155833_n.jpg);background-size: 24rem 25rem;
+    }
+    75%{
+        background: url(133635289_865521914183677_3140324798405674710_n.jpg);background-size: 24rem 25rem;
+    }
+    100%{
+        background: url(120569212_801965567205979_1528329270283619713_n.jpg);background-size: 24rem 25rem;
+    }
+ }
+  
+  .text {
+    padding: 1em;
+  }
+  
+  .muted {
+    opacity: 0.8;
+  }
+  
+  .space {
+    height: 100px;
+  }
+
+  h1{
+      color: #34568b;
+  }
+
+  p{
+    background-color: orchid; display: inline-block; border-radius: 50%; color: pink; text-decoration: none; font-size: 20px;
+    font-weight: 300; padding: 1em 2em 1em; position: relative; text-transform: uppercase; vertical-align: top; margin-top: 100px; font-family: cursive;
+    animation: bouncing 0.5s ease 0s infinite alternate both;
+}
+
+@keyframes bouncing{
+    0%{
+        bottom: 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.507);
+    }
+
+    100%{
+        bottom: 50px; box-shadow: 0 50px 50px rgba(0, 0, 0, 0.103);
+    }
+}
+  </style>
+</head>
+<body>
+   
+   <div class="card">
+       <div class="background">
+       </div>    
+       <div class="text">
+          <h1>A very Happy Birthday to you!</h1>
+         <p>Sending you 
+          lots of wishes on 
+          your special day from us.
+          Hoping for your good health and future. 
+         </p>
+       </div>
+   </div>
+   
+</body>
+</html>
